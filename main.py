@@ -45,7 +45,7 @@ def play_innings(player_type, bowls, players):
             try:
                 player_number = int(input("Enter your number (1-6): "))
                 if player_number not in numbers:
-                    print("⚠ Invalid number! Enter a number between 1 and 6.")
+                    print(" Invalid number! Enter a number between 1 and 6.")
                     continue
             except ValueError:
                 print(" Invalid input! Please enter a number between 1 and 6.")
@@ -102,7 +102,7 @@ def display_results(user_score, computer_score):
         print(" It's a draw! What a match!")
 
 def single_match(bowls , players):
-    print("\n--- 🏏 Match Begins! ---")
+    print("\n---  Match Begins! ---")
 
     toss_result = toss()
     if toss_result is None:
@@ -177,14 +177,14 @@ def main():
         players = int(input("Enter the number of players: "))
 
         if players > 11:
-            print("⚠ You can't have more than 11 players. Exiting game.")
+            print(" You can't have more than 11 players. Exiting game.")
             return
 
         if matches > 1:
-            print(f"🎮 Get ready for a tournament with {matches} matches!")
+            print(f" Get ready for a tournament with {matches} matches!")
             tournament(matches, bowls, players)
         elif matches == 1:
-            print("🎮 Starting a single match!")
+            print(" Starting a single match!")
             single_match(bowls , players )
 
     elif user_choice == "2":
