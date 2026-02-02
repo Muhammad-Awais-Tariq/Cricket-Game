@@ -1,4 +1,4 @@
-# **Cricket-Game**
+# Cricket-Game
 Its a simple console-based Python game that includes a toss system. The user plays against the computer. It supports single matches as well as tournaments consisting of multiple matches, and it follows easy-to-understand **cricket-inspired rules**.
 ---
 ## **Features**
