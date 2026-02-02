@@ -1,5 +1,5 @@
 # **Cricket-Game**
-Its a simple console-based Python game that includes a toss system. The user plays against the computer. It supports single matches as well as tournaments consisting of multiple matches, and it follows easy-to-understand *cricket-inspired rules*.
+Its a simple console-based Python game that includes a toss system. The user plays against the computer. It supports single matches as well as tournaments consisting of multiple matches, and it follows easy-to-understand **cricket-inspired rules**.
 ---
 ## **Features**
 - Coin toss (*Heads / Tails*)
@@ -59,9 +59,11 @@ when the game starts:
 Follow on screen instructions to play.
 ---
 ## File Structure
+```bash
 project/
 │── file.py
 │── README.md
+```
 ---
 ## Technologies Used
 - Python
